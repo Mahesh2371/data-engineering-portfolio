@@ -1,4 +1,4 @@
-# 🚀 Data Engineering Platform
+# 🚀 Data Engineering Poftfolio
 
 End-to-end Data Engineering platform demonstrating both **Real-Time Streaming** and **Batch Lakehouse ETL** architectures using modern Big Data tools.
 
