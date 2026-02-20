@@ -1,0 +1,5 @@
+*.parquet
+*.log
+.env
+__pycache__/
+*.p
