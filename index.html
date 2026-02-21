@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Girlfriend ❤️</title>
+<style>
+    body{
+        margin:0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        color:#fff;
+    }
+
+    .card{
+        background: rgba(0,0,0,0.4);
+        padding:40px;
+        border-radius:20px;
+        width:400px;
+        box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    h1{
+        font-size:32px;
+        margin-bottom:10px;
+    }
+
+    p{
+        font-size:18px;
+        line-height:1.6;
+    }
+
+    button{
+        margin-top:20px;
+        padding:12px 25px;
+        border:none;
+        border-radius:30px;
+        background:#ff4b5c;
+        color:white;
+        font-size:16px;
+        cursor:pointer;
+    }
+
+    button:hover{
+        background:#ff2e44;
+    }
+
+    #hiddenMessage{
+        display:none;
+        margin-top:20px;
+        font-size:20px;
+        color:#fff;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Hi ❤️</h1>
+    <p>
+        I just wanted to make something special for you.  
+        Because you make my days brighter, my smile bigger,
+        and my life happier.
+    </p>
+
+    <button onclick="showMessage()">Click Here</button>
+
+    <div id="hiddenMessage">
+        You mean the world to me 💕
+    </div>
+</div>
+
+<script>
+function showMessage(){
+    document.getElementById("hiddenMessage").style.display="block";
+}
+</script>
+
+</body>
+</html>
