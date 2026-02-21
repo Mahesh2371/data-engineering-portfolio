@@ -1,5 +1,5 @@
 # 🚀 Data Engineering Poftfolio
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=Mahesh2371&color=blue)
 
 End-to-end Data Engineering platform demonstrating both **Real-Time Streaming** and **Batch Lakehouse ETL** architectures using modern Big Data tools.
 
