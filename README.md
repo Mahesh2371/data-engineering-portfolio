@@ -9,7 +9,7 @@ This repository showcases production-style implementations using:
 ✅ Kafka
 ✅ SQL
 ✅ Delta Lake  
-✅ AWS S3 (local simulation)  
+✅ AWS S3
 ✅ Apache Airflow  
 ✅ Docker  
 
