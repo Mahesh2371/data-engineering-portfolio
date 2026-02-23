@@ -1,5 +1,5 @@
-*.parquet
+*.csv
 *.log
 .env
 __pycache__/
-*.p
+*.parquet

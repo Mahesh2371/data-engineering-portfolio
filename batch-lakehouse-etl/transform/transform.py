@@ -1,5 +1,8 @@
-from pyspark.sql import SparkSession
-spark = SparkSession.builder.getOrCreate()
+import pandas as pd
+df = pd.read_csv("/opt/airflow/scripts/data/raw.csv")
 
-df = spark.read.csv("data/raw.csv", header=True)
-df.dropna().write.mode("overwrite").parquet("data/clean/")
+df = df.dropna()
+
+df.to_csv("/opt/airflow/scripts/data/clean/clean.csv", index=False)
+
+print("Cleaned data saved to data/clean/clean.csv")
