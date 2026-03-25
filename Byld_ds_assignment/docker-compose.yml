@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./docs:/app/docs
+      - ./embeddings.db:/app/embeddings.db
+    restart: unless-stopped
